@@ -1,0 +1,226 @@
+body {
+	background-color : #FAD6A6;
+}
+
+#login_box{
+	width : 50%;
+	height : auto;
+	margin: auto;
+	margin-top :10%;
+	border : solid 2px #ffffff;
+	border-radius : 5px;
+	background-color : white;
+	text-align : center;
+}
+
+/*로그인 테이블 크기*/
+#login_main{
+	text-align : center;
+	width : 300px;
+	margin : auto;
+}
+
+/*회원가입 테이블 크기*/
+#member_main{
+	width : 370px;
+	margin : auto;
+}
+/* 아이디/비밀번호 찾기 화면*/
+#member_find_main {
+	width : 340px;
+	margin : auto;
+}
+
+/* 회원가입 완료 화면*/
+#member_join_complete{
+	width : 200px;
+	margin : auto;
+}
+
+/* 아이디/비번찾기 완료 화면*/
+#member_main3{
+	width : 370px;
+	margin : auto;
+}
+
+tr {
+	margin : 0;
+	padding : 0;
+	float : left;
+	font-size : 16px;
+	text-align : center;
+}
+
+#member_main th {
+	width : 110px;
+	text-align : left;
+}
+
+#member_find_main th {
+	width : 80px;
+	text-align:left;
+}
+
+/*로그인 타이틀*/
+.title {
+	text-align : center;
+	margin : 40px;
+	font-size : 32px;
+}
+
+.col1 {
+	margin-top : 25px;
+}
+
+/*login_main 박스 안에 텍스트 (로그인, 비번)*/
+.col1 input{
+	width : 300px;
+	height : 30px;
+	border : none;
+	outline : none;
+	border-bottom : solid 2px #cccccc;
+	font-size : 18px;
+}
+
+/* 아이디 저장 */
+.col2 {
+	margin : 30px auto;/*150*/
+}
+
+input[type="checkbox"]#idSave {
+	display:inline-block;
+	transform : scale(1.5);
+	margin-right:15px;
+	cursor: pointer;
+	vertical-align:middle;
+}
+
+
+.col2 input{
+	margin-left : 5px;
+	width : 19px;
+	height : 15px;
+}
+
+.col3, .col4 {
+	margin : 15px auto;
+	float: right;
+	font-size : 16px;
+}
+
+
+
+
+/* member_join 입력칸 */
+.col3 input, .col4 input {
+	float: right;
+	width : 245px;
+	height : 30px;
+	border : none;
+	outline : none;
+	border-bottom : solid 2px #cccccc;
+	text-align : center;
+	font-size : 18px;
+}
+
+/*회원가입 아이디, 중복확인*/
+.col3 input#id {
+	width : 175px;
+}
+
+.col3 input#overlapCheck {
+	font-size : 16px;
+	width : 70px;
+}
+
+.col3 input.phone {
+	width : 75px;
+}
+
+
+/*로그인 버튼*/
+#login_button{
+	margin-top : 30px;
+}
+
+#login_button input{
+	font-size :24px;
+	width : 300px;
+	height : 50px;
+}
+
+/*로그인 하단 버튼*/
+#login_bottom_button {
+	margin: 45px auto;
+}
+
+#login_bottom_button input {
+	font-size : 16px;
+	width : auto;
+	height : 35px;
+	padding : 10px;
+}
+
+#login_bottom_button input#left{
+	margin-right : 28px;
+	width : 93px;
+}
+
+/*member_write 확인, 취소*/
+#member_bottom_button{
+	margin: 45px auto;
+	/*margin-left : 10px;*/
+}
+
+#member_bottom_button input{
+	width : 150px;
+	height : 35px;
+	font-size : 20px;
+}
+
+#member_bottom_button input#left {
+	margin-right : 40px;
+}
+
+/*회원가입, 찾기 완료 확인*/
+#member_complete input{
+	width : 200px;
+	height : 40px;
+	margin : 15px;
+}
+
+
+/* 아이디/비밀번호 찾기 선택버튼 */
+#member_find_button{
+	margin:auto;
+	margin-bottom : 15px;	
+}
+
+#member_find_button li {
+	display : inline;
+}
+​
+#member_find_button button{
+	width : 120px;
+	height : 35px;
+	font-size : 20px;
+}
+
+
+/* 아이디/비번찾기 완료 화면 아이디 보이는곳*/
+#login_box div#id {
+	margin : 15px;
+	font-size : 18px;
+}
+
+#login_box #id_box {
+	margin : 30px;
+	font-size : 20px;
+}
+
+
+/* 아이디/비밀번호 찾기 완료 화면 버튼 */
+#login_box #name {
+	margin : 40px;
+}
+
